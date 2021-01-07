@@ -1,0 +1,138 @@
+.services{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.services h1{
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+.hr{
+    border-bottom: 3px solid royalblue;
+    width:5%;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.services h4{
+    font-size: 16px;
+}
+
+.servicesCard{
+    width: 23%;
+    height: 80px;
+    background: linear-gradient(90deg, rgb(0, 152, 218), rgb(37, 89, 166));
+    border-radius: 10px;
+    padding: 1rem;
+    display: block;
+    margin: .5rem;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    position: relative;
+}
+.servicesCard h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+}
+
+.servicesCard p{
+    display: none;
+    font-size: 13px;
+    line-height:2rem;
+}
+.servicesCard:hover{
+    height: 100%;
+    display: block;
+    -webkit-transition: max-height 1s; 
+    -moz-transition: max-height 1s; 
+    -ms-transition: max-height 1s; 
+    -o-transition: max-height 1s; 
+    transition: max-height 1s; 
+}
+.servicesCard:hover  p{
+   display: block;
+} 
+
+
+/*SmartPhones potrait Screen Css goes here*/
+@media (max-height: 500px) {
+    .services{
+        padding: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .servicesCard{
+    width: 100%;
+    }
+
+  }
+  
+  @media (max-width: 640px) {
+    .services{
+        padding: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .servicesCard{
+    width: 100%;
+    }
+
+  }
+  
+  @media (max-height: 600px) {
+    .services{
+        padding: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .servicesCard{
+    width: 100%;
+    }
+
+  }
+  
+  @media (max-width: 640px) {
+    .services{
+        padding: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .servicesCard{
+    width: 100%;
+    }
+
+  }
+  @media (max-width: 768px) {
+    .services{
+        padding: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .servicesCard{
+    width: 100%;
+    }
+
+  }
+  @media (max-width: 1024px) {
+    .services{
+        padding: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .servicesCard{
+    width: 100%;
+    }
+
+  }

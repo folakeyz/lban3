@@ -1,0 +1,17 @@
+.hero{
+    background: linear-gradient(90deg, rgba(0,0,0,0), rgba(0,0,0,0.9)),url(../../assets/software.jpg);
+    /* background: linear-gradient(90deg, rgba(94,55,143,0.9), rgba(132,45,149,0.9)),url(../../assets/hackss.jpg); */
+
+    width: 100%;
+    height: 20rem;
+    padding: 5rem;
+    text-align: center;
+    padding-top: 10rem;
+    color: white;;
+
+}
+.hero h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
